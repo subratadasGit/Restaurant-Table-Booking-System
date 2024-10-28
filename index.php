@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
     } else {
         echo "<script>alert('Something went wrong. Please try again.');</script>";
     }
-}
+}   
 ?>
 
 <!DOCTYPE html>
@@ -277,6 +277,13 @@ Whether you're stopping by for a morning coffee, meeting friends for brunch, or 
         </div>
     </div>
 </section>
+
+<!-- Add this section before the closing body tag -->
+<footer class="bg-gray-900 text-white p-6 text-center shadow-lg">
+    <h2 class="text-lg font-semibold mb-4">Explore More</h2>
+    <a href="sitemap.php" class="bg-purple-700 text-white px-5 py-2 rounded-full hover:bg-purple-600 transition duration-300">View Sitemap</a>
+</footer>
+
 
 
 
